@@ -1,0 +1,19 @@
+body{
+    margin: 50px;
+    background-color: rgb(255, 224, 187);
+}
+
+header{
+    background-color: rgb(255, 242, 226);
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+footer{
+    background-color: aliceblue;
+}
+.logoheader{
+    widht: 50%
+}
