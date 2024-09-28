@@ -1,9 +1,14 @@
-body{
+html {
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
     margin: 50px;
     background-color: rgb(255, 224, 187);
 }
 
-header{
+header {
     background-color: rgb(255, 242, 226);
     display: flex;
     padding-left: 150px;
@@ -11,9 +16,86 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-footer{
-    background-color: aliceblue;
+
+footer {
+    background-color: antiquewhite;
 }
-.logoheader{
+
+.logoheader {
     widht: 50%
 }
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li a{
+    color:black;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#introducao {
+    display: flex;
+    height: 250px;
+    align-items: center;
+}
+
+#introducao div{
+    width: 80%;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+    margin-top: 50px;
+}
+
+#sobre-nos {
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: antiquewhite;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+}
+
+#produtos {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#produtos h2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.conteudo-produtos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.produto{
+    widht: 200px;
+    text-align: center;
+}
+
+footer{
+   background-color: black;
+   color: aliceblue;
+   margin: 0;
+   text-align: center;
+   padding-top: 25px;
+}
+
+footer p{
+    margin: 0;
+}
+
+.direitos-autorais{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+

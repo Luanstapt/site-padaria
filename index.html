@@ -7,43 +7,53 @@
     <title>Pão na Chapa</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <header>
         <img class="logo-header" src="imagens/logo.png" alt="Pão, Pão na Chapa, Salgado, Bolos, Logo, Logo Padaria" srcset="">
-        <ul>
-            <li>
-                <a>Início</a>
-            </li>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#introducao">Início</a>
+                </li>
 
-            <li>
-                <a>Sobre</a>
-            </li>
+                <li>
+                    <a href="#sobre-nos">Sobre</a>
+                </li>
 
-            <li>
-                <a>Produtos</a>
-            </li>
+                <li>
+                    <a href="#produtos">Produtos</a>
+                </li>
 
-            <li>
-                <a>Contatos</a>
-            </li>
-        </ul>
+                <li>
+                    <a href="#contato">Contatos</a>
+                </li>
+            </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <H2>
-                Bem-vindo a Padaria Pão na Chapa
-            </H2>
-            <p>Na Padaria Pão na Chapa, oferecemos o melhor Pão para voce, com ingredientes saúdaveis e o resultado
-                super macio e delicioso. Venha saborear nossas criações, e mantenha-se saúdavel!
-            </p>
+        <section id="introducao">
+            <div>
+                <H2>
+                    Bem-vindo a Padaria Pão na Chapa
+                </H2>
+                <p>Na Padaria Pão na Chapa, oferecemos o melhor Pão para voce, com ingredientes saúdaveis e o resultado
+                    super macio e delicioso. Venha saborear nossas criações, e mantenha-se saúdavel!
+                </p>
+            </div>
+            <div>
+                <img width="300px" src="./imagens/pao.png" alt="Nossa cesta de pães" height="250px">
+            </div>
+            
         </section>
 
-        <section>
+        <section id="sobre-nos">
             <h2>Sobre nós</h2>
 
             <p>
@@ -54,11 +64,12 @@
             </p>
         </section>
 
-        <section>
+        <section id="produtos">
             <h2>Nossos Produtos</h2>
 
-            <div>
-                <div>
+            <div class="conteudo-produtos">
+
+                <div class="produto">
                     <h3>Paes</h3>
                     <p>
                         Nossas variedades em Paes são:
@@ -67,7 +78,7 @@
 
                 </div>
 
-                <div>
+                <div class="produto">
                     <h3>Bolos</h3>
                     <p>
                         Oferecemos Bolos e Tortas macios e deliciosos,
@@ -76,7 +87,7 @@
                     </p>
                 </div>
 
-                <div>
+                <div class="produto">
                     <h3>Salgados</h3>
                     <p>
                         E em nosso estoque de salgados crocantes e saborosos temos:
@@ -88,13 +99,13 @@
         </section>
     </main>
     <footer>
-        <section>
+        <section id="contato">
             <h2>Contato</h2>
             <p>Email:padariapaonachapa@gmail.com</p>
             <p>Telefone: (11) 1234-5678</p>
             <p>Endereço: Rua Do Pão, 123 - Centro - São Paulo</p>
         </section>
-        <p>&copy; 2024 - Padaria Pão Na Chapa - Todos Direitos Reservados</p>
+        <p class="direitos-autorais">&copy; 2024 - Padaria Pão Na Chapa - Todos Direitos Reservados</p>
     </footer>
 
 </body>
